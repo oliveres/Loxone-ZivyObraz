@@ -1,5 +1,5 @@
 # Loxone-ZivyObraz
-Kód Pico C do Loxone pro posílání dat 1x za 5 minut do ŽivýObraz.eu
+Kód Pico C do Loxone pro čtení hodnot 1x za 5 vteřin a posílání průměrné hodnoty 1x za 5 minut do ŽivýObraz.eu
 
 1. V Loxone Configu si přidejte na Miniserver "Virtuální výstup" a nastavte adresu pro poosílání dle dokumentace (http://in.zivyobraz.eu) bez lomítka na konci
 2. Pod tento "Virtuální výstup" vytvořte "Virtuální výstup příkazu" a v nastavení ponechte GET do pole "Instrukce při zapnutí" vložte následující příkaz `?import_key=apiklic<v>` (ano, na konci klíče je `<v>` bez znaku `&` protože toto je řešeno v programu)
