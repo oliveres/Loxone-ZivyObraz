@@ -6,4 +6,4 @@ Kód Pico C do Loxone pro čtení hodnot 1x za 5 vteřin a posílání průměrn
 3. Přidejte funkční blok "Program" a vložte do něj kód z tohoto repozitáře, upravte v něm podle potřeby na začátku počet hodnot které budete posílat a jejich názvy
 4. Propojte Txt1 výstup bloku "Program" s Virtuálním výstupem příkazu, který jste před tím vytvořili. Na vstupy I1 - I13 podle potřeby můžete posílat hodnoty
 
-Upozorňuji, že na ŽivýObraz se hodnoty objeví až po 5 minutách! Případně upravte řádek `26` kódu a místo 300 dejte 30 pro testování, pro trvalé nasazení nastavte 300 vteřin (5 minut), toto je smysl tohoto programu.
+Upozorňuji, že na ŽivýObraz se hodnoty objeví až po 5 minutách! Případně upravte řádek `26` kódu a místo 300 vteřin dejte 30 pro testování, pro trvalé nasazení nastavte 300 (5 minut), toto je smysl tohoto programu.
