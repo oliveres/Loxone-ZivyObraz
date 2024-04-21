@@ -23,7 +23,7 @@ while (TRUE) {
         lastReadTime = currentTime;
     }
 
-    if (currentTime - startTime >= 30) {
+    if (currentTime - startTime >= 300) { // Počet vteřin na které se hodnota průměruje, tj. 5 minut - podmínka ŽivýObraz.eu
         char outputText[512] = "";
 
         for (int j = 0; j < NUM_AI; j++) {
